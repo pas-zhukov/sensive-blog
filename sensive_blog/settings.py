@@ -96,11 +96,6 @@ STATIC_URL = "/static/"
 
 STATICFILES_DIRS = [
     'static',
-    'static/img',
-    'static/fonts',
-    'static/img/banner',
-    'static/img/blog',
-    'static/img/blog/blog-slider'
 ]
 
 MEDIA_ROOT = os.getenv("MEDIA_ROOT", os.path.join(BASE_DIR, 'media'))
